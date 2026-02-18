@@ -193,7 +193,7 @@ docker compose up -d
 ## Support & Feedback
 
 - **Issues**: [GitHub Issues](https://github.com/DiAhman/toparius-releases/issues)
-- **Email**: support@plextura.com
+- **Email**: contact@di-ahman.com
 
 ---
 
