@@ -1,0 +1,31 @@
+# Toparius Server Configuration
+# Environment variables override these values with TOPARIUS_ prefix:
+#   TOPARIUS_SERVER_PORT=9090
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+database:
+  # "sqlite" or "postgres"
+  driver: "sqlite"
+  # For sqlite: file path
+  # For postgres: "host=localhost port=5432 user=toparius password=secret dbname=toparius sslmode=disable"
+  dsn: "/var/lib/toparius/toparius.db"
+
+auth:
+  # CHANGE THIS — generate with: openssl rand -hex 32
+  jwt_secret: "change-me-in-production-use-openssl-rand-hex-32"
+  access_token_ttl: "15m"
+  refresh_token_ttl: "168h"  # 7 days
+
+security:
+  rate_limit_rps: 20
+  rate_limit_burst: 40
+
+updates:
+  agent_binary_dir: "/var/lib/toparius/updates"
+
+log:
+  level: "info"
+  format: "text"

@@ -1,0 +1,525 @@
+Third-Party Software Licenses
+==============================
+
+Toparius includes the following third-party software components.
+Each component is listed with its license type.
+
+================================================================================
+Go Dependencies (server + agent)
+================================================================================
+
+github.com/dustin/go-humanize v1.0.1
+License: MIT
+https://github.com/dustin/go-humanize
+
+github.com/fsnotify/fsnotify v1.9.0
+License: BSD-3-Clause
+https://github.com/fsnotify/fsnotify
+
+github.com/go-chi/chi/v5 v5.2.5
+License: MIT
+https://github.com/go-chi/chi
+
+github.com/go-chi/cors v1.2.2
+License: MIT
+https://github.com/go-chi/cors
+
+github.com/golang-jwt/jwt/v5 v5.3.1
+License: MIT
+https://github.com/golang-jwt/jwt
+
+github.com/google/uuid v1.6.0
+License: BSD-3-Clause
+https://github.com/google/uuid
+
+github.com/gosnmp/gosnmp v1.43.2
+License: BSD-2-Clause
+https://github.com/gosnmp/gosnmp
+
+github.com/go-viper/mapstructure/v2 v2.4.0
+License: MIT
+https://github.com/go-viper/mapstructure
+
+github.com/jackc/pgpassfile v1.0.0
+License: MIT
+https://github.com/jackc/pgpassfile
+
+github.com/jackc/pgservicefile
+License: MIT
+https://github.com/jackc/pgservicefile
+
+github.com/jackc/pgx/v5 v5.8.0
+License: MIT
+https://github.com/jackc/pgx
+
+github.com/jackc/puddle/v2 v2.2.2
+License: MIT
+https://github.com/jackc/puddle
+
+github.com/jmoiron/sqlx v1.4.0
+License: MIT
+https://github.com/jmoiron/sqlx
+
+github.com/knadh/koanf/v2 v2.3.2
+License: MIT
+https://github.com/knadh/koanf
+
+github.com/knadh/koanf/maps v0.1.2
+License: MIT
+https://github.com/knadh/koanf
+
+github.com/knadh/koanf/parsers/yaml v1.1.0
+License: MIT
+https://github.com/knadh/koanf
+
+github.com/knadh/koanf/providers/env v1.1.0
+License: MIT
+https://github.com/knadh/koanf
+
+github.com/knadh/koanf/providers/file v1.2.1
+License: MIT
+https://github.com/knadh/koanf
+
+github.com/mitchellh/copystructure v1.2.0
+License: MIT
+https://github.com/mitchellh/copystructure
+
+github.com/mitchellh/reflectwalk v1.0.2
+License: MIT
+https://github.com/mitchellh/reflectwalk
+
+github.com/remyoudompheng/bigfft
+License: BSD-3-Clause
+https://github.com/remyoudompheng/bigfft
+
+golang.org/x/crypto v0.48.0
+License: BSD-3-Clause
+https://cs.opensource.google/go/x/crypto
+
+golang.org/x/exp
+License: BSD-3-Clause
+https://cs.opensource.google/go/x/exp
+
+golang.org/x/sync v0.19.0
+License: BSD-3-Clause
+https://cs.opensource.google/go/x/sync
+
+golang.org/x/sys v0.41.0
+License: BSD-3-Clause
+https://cs.opensource.google/go/x/sys
+
+golang.org/x/text v0.34.0
+License: BSD-3-Clause
+https://cs.opensource.google/go/x/text
+
+go.yaml.in/yaml/v3 v3.0.3
+License: MIT
+https://github.com/yaml/go-yaml
+
+modernc.org/libc v1.67.6
+License: MIT
+https://gitlab.com/cznic/libc
+
+modernc.org/memory v1.11.0
+License: BSD-3-Clause
+https://gitlab.com/cznic/memory
+
+modernc.org/sqlite v1.45.0
+License: BSD-3-Clause
+https://gitlab.com/cznic/sqlite
+
+nhooyr.io/websocket v1.8.17
+License: ISC
+https://github.com/nhooyr/websocket
+
+================================================================================
+npm Dependencies (web frontend)
+================================================================================
+
+@babel/runtime 7.28.6
+License: MIT
+https://github.com/babel/babel
+
+@floating-ui/core 1.7.4
+License: MIT
+https://github.com/floating-ui/floating-ui
+
+@floating-ui/dom 1.7.5
+License: MIT
+https://github.com/floating-ui/floating-ui
+
+@floating-ui/react-dom 2.1.7
+License: MIT
+https://github.com/floating-ui/floating-ui
+
+@floating-ui/react 0.27.17
+License: MIT
+https://github.com/floating-ui/floating-ui
+
+@floating-ui/utils 0.2.10
+License: MIT
+https://github.com/floating-ui/floating-ui
+
+@hookform/resolvers 5.2.2
+License: MIT
+https://github.com/react-hook-form/resolvers
+
+@mantine/core 8.3.14
+License: MIT
+https://github.com/mantinedev/mantine
+
+@mantine/form 8.3.14
+License: MIT
+https://github.com/mantinedev/mantine
+
+@mantine/hooks 8.3.14
+License: MIT
+https://github.com/mantinedev/mantine
+
+@mantine/modals 8.3.14
+License: MIT
+https://github.com/mantinedev/mantine
+
+@mantine/notifications 8.3.14
+License: MIT
+https://github.com/mantinedev/mantine
+
+@mantine/spotlight 8.3.15
+License: MIT
+https://github.com/mantinedev/mantine
+
+@mantine/store 8.3.14
+License: MIT
+https://github.com/mantinedev/mantine
+
+@standard-schema/utils 0.3.0
+License: MIT
+https://github.com/standard-schema/standard-schema
+
+@tanstack/query-core 5.90.20
+License: MIT
+https://github.com/TanStack/query
+
+@tanstack/react-query 5.90.21
+License: MIT
+https://github.com/TanStack/query
+
+@tanstack/react-table 8.21.3
+License: MIT
+https://github.com/TanStack/table
+
+@tanstack/table-core 8.21.3
+License: MIT
+https://github.com/TanStack/table
+
+@types/d3-color 3.1.3
+License: MIT
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+@types/d3-drag 3.0.7
+License: MIT
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+@types/d3-interpolate 3.0.4
+License: MIT
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+@types/d3-selection 3.0.11
+License: MIT
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+@types/d3-transition 3.0.9
+License: MIT
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+@types/d3-zoom 3.0.8
+License: MIT
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+@types/react 19.2.14
+License: MIT
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+@xyflow/react 12.10.0
+License: MIT
+https://github.com/xyflow/xyflow
+
+@xyflow/system 0.0.74
+License: MIT
+https://github.com/xyflow/xyflow
+
+camelcase-css 2.0.1
+License: MIT
+https://github.com/stevenvachon/camelcase-css
+
+classcat 5.0.5
+License: MIT
+https://github.com/jorgebucaran/classcat
+
+clsx 2.1.1
+License: MIT
+https://github.com/lukeed/clsx
+
+cookie 1.1.1
+License: MIT
+https://github.com/jshttp/cookie
+
+cssesc 3.0.0
+License: MIT
+https://github.com/mathiasbynens/cssesc
+
+csstype 3.2.3
+License: MIT
+https://github.com/frenic/csstype
+
+d3-color 3.1.0
+License: ISC
+https://github.com/d3/d3-color
+
+d3-dispatch 3.0.1
+License: ISC
+https://github.com/d3/d3-dispatch
+
+d3-drag 3.0.0
+License: ISC
+https://github.com/d3/d3-drag
+
+d3-ease 3.0.1
+License: BSD-3-Clause
+https://github.com/d3/d3-ease
+
+d3-interpolate 3.0.1
+License: ISC
+https://github.com/d3/d3-interpolate
+
+d3-selection 3.0.0
+License: ISC
+https://github.com/d3/d3-selection
+
+d3-timer 3.0.1
+License: ISC
+https://github.com/d3/d3-timer
+
+d3-transition 3.0.1
+License: ISC
+https://github.com/d3/d3-transition
+
+d3-zoom 3.0.0
+License: ISC
+https://github.com/d3/d3-zoom
+
+detect-node-es 1.1.0
+License: MIT
+https://github.com/thekashey/detect-node
+
+dom-helpers 5.2.1
+License: MIT
+https://github.com/react-bootstrap/dom-helpers
+
+echarts 6.0.0
+License: Apache-2.0
+https://github.com/apache/echarts
+
+echarts-for-react 3.0.6
+License: MIT
+https://github.com/hustcc/echarts-for-react
+
+fast-deep-equal 3.1.3
+License: MIT
+https://github.com/epoberezkin/fast-deep-equal
+
+fdir 6.5.0
+License: MIT
+https://github.com/thecodrr/fdir
+
+get-nonce 1.0.1
+License: MIT
+https://github.com/theKashey/get-nonce
+
+html-to-image 1.11.13
+License: MIT
+https://github.com/bubkoo/html-to-image
+
+js-tokens 4.0.0
+License: MIT
+https://github.com/lydell/js-tokens
+
+klona 2.0.6
+License: MIT
+https://github.com/lukeed/klona
+
+loose-envify 1.4.0
+License: MIT
+https://github.com/zertosh/loose-envify
+
+lucide-react 0.564.0
+License: ISC
+https://github.com/lucide-icons/lucide
+
+nanoid 3.3.11
+License: MIT
+https://github.com/ai/nanoid
+
+object-assign 4.1.1
+License: MIT
+https://github.com/sindresorhus/object-assign
+
+picocolors 1.1.1
+License: ISC
+https://github.com/alexeyraspopov/picocolors
+
+picomatch 4.0.3
+License: MIT
+https://github.com/micromatch/picomatch
+
+postcss 8.5.6
+License: MIT
+https://github.com/postcss/postcss
+
+postcss-js 4.1.0
+License: MIT
+https://github.com/postcss/postcss-js
+
+postcss-mixins 12.1.2
+License: MIT
+https://github.com/postcss/postcss-mixins
+
+postcss-nested 7.0.2
+License: MIT
+https://github.com/postcss/postcss-nested
+
+postcss-preset-mantine 1.18.0
+License: MIT
+https://github.com/mantinedev/postcss-preset-mantine
+
+postcss-selector-parser 7.1.1
+License: MIT
+https://github.com/postcss/postcss-selector-parser
+
+postcss-simple-vars 7.0.1
+License: MIT
+https://github.com/postcss/postcss-simple-vars
+
+prop-types 15.8.1
+License: MIT
+https://github.com/facebook/prop-types
+
+react 19.2.4
+License: MIT
+https://github.com/facebook/react
+
+react-dom 19.2.4
+License: MIT
+https://github.com/facebook/react
+
+react-hook-form 7.71.1
+License: MIT
+https://github.com/react-hook-form/react-hook-form
+
+react-is 16.13.1
+License: MIT
+https://github.com/facebook/react
+
+react-number-format 5.4.4
+License: MIT
+https://github.com/s-yadav/react-number-format
+
+react-remove-scroll 2.7.2
+License: MIT
+https://github.com/theKashey/react-remove-scroll
+
+react-remove-scroll-bar 2.3.8
+License: MIT
+https://github.com/theKashey/react-remove-scroll-bar
+
+react-router 7.13.0
+License: MIT
+https://github.com/remix-run/react-router
+
+react-router-dom 7.13.0
+License: MIT
+https://github.com/remix-run/react-router
+
+react-style-singleton 2.2.3
+License: MIT
+https://github.com/theKashey/react-style-singleton
+
+react-textarea-autosize 8.5.9
+License: MIT
+https://github.com/Andarist/react-textarea-autosize
+
+react-transition-group 4.4.5
+License: BSD-3-Clause
+https://github.com/reactjs/react-transition-group
+
+scheduler 0.27.0
+License: MIT
+https://github.com/facebook/react
+
+set-cookie-parser 2.7.2
+License: MIT
+https://github.com/nfriedly/set-cookie-parser
+
+size-sensor 1.0.3
+License: ISC
+https://github.com/hustcc/size-sensor
+
+source-map-js 1.2.1
+License: BSD-3-Clause
+https://github.com/7rulnik/source-map-js
+
+sugarss 5.0.1
+License: MIT
+https://github.com/postcss/sugarss
+
+tabbable 6.4.0
+License: MIT
+https://github.com/focus-trap/tabbable
+
+tinyglobby 0.2.15
+License: MIT
+https://github.com/SuperchupuDev/tinyglobby
+
+tslib 2.8.1
+License: 0BSD
+https://github.com/Microsoft/tslib
+
+type-fest 4.41.0
+License: MIT OR CC0-1.0
+https://github.com/sindresorhus/type-fest
+
+use-callback-ref 1.3.3
+License: MIT
+https://github.com/theKashey/use-callback-ref
+
+use-composed-ref 1.4.0
+License: MIT
+https://github.com/Andarist/use-composed-ref
+
+use-isomorphic-layout-effect 1.2.1
+License: MIT
+https://github.com/Andarist/use-isomorphic-layout-effect
+
+use-latest 1.3.0
+License: MIT
+https://github.com/Andarist/use-latest
+
+use-sidecar 1.1.3
+License: MIT
+https://github.com/theKashey/use-sidecar
+
+use-sync-external-store 1.6.0
+License: MIT
+https://github.com/facebook/react
+
+util-deprecate 1.0.2
+License: MIT
+https://github.com/TooTallNate/util-deprecate
+
+zod 4.3.6
+License: MIT
+https://github.com/colinhacks/zod
+
+zustand 5.0.11
+License: MIT
+https://github.com/pmndrs/zustand

@@ -1,0 +1,24 @@
+# Toparius Agent Configuration
+# Environment variables override with TOPARIUS_AGENT_ prefix:
+#   TOPARIUS_AGENT_SERVER_URL=http://10.0.0.1:8080
+
+server:
+  # URL of the Toparius server
+  url: "http://toparius-server:8080"
+  # Agent API key (generated in Toparius server UI)
+  api_key: ""
+
+agent:
+  # Site ID this agent is assigned to
+  site_id: ""
+  discovery_interval: "1h"
+  monitor_interval: "5m"
+  subnet_detection_interval: "1h"
+
+update:
+  enabled: true
+  staging_dir: "/var/lib/toparius-agent/updates"
+
+log:
+  level: "info"
+  format: "text"

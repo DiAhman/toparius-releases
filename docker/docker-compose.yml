@@ -1,0 +1,36 @@
+services:
+  toparius-server:
+    image: ghcr.io/diahman/toparius-server:latest
+    container_name: toparius-server
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+      - "514:514/udp"   # syslog
+      - "162:162/udp"   # SNMP traps
+    volumes:
+      - toparius-data:/var/lib/toparius
+      - ./toparius-server.yaml:/etc/toparius/toparius-server.yaml:ro
+    environment:
+      - TOPARIUS_DATABASE_DSN=/var/lib/toparius/toparius.db
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/v1/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  toparius-agent:
+    image: ghcr.io/diahman/toparius-agent:latest
+    container_name: toparius-agent
+    restart: unless-stopped
+    network_mode: host  # needed for SNMP/ping discovery on local network
+    volumes:
+      - ./toparius-agent.yaml:/etc/toparius/toparius-agent.yaml:ro
+    depends_on:
+      toparius-server:
+        condition: service_healthy
+    cap_add:
+      - NET_RAW  # required for ICMP ping
+
+volumes:
+  toparius-data:
