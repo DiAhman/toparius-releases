@@ -1,5 +1,81 @@
+Toparius Proprietary Software License
 Copyright (c) 2024-2026 DiAhman Contracting, LLC. All rights reserved.
 
-This software is proprietary and confidential. No part of this software
-may be reproduced, distributed, or transmitted in any form or by any
-means without the prior written permission of the copyright holder.
+1. OWNERSHIP
+
+   This software, including all source code, object code, documentation,
+   and associated materials (collectively, the "Software"), is the
+   exclusive property of DiAhman Contracting, LLC ("Licensor"). The
+   Software is protected by copyright laws, international treaties, and
+   other intellectual property laws.
+
+2. LICENSE GRANT
+
+   Subject to the terms of this License and the End User License Agreement
+   (EULA.md), Licensor grants you a limited, non-exclusive,
+   non-transferable, revocable license to use the Software solely in
+   accordance with the applicable license tier purchased or otherwise
+   authorized by Licensor.
+
+3. RESTRICTIONS
+
+   You may not, without prior written consent from Licensor:
+
+   a. Copy, modify, adapt, translate, or create derivative works of the
+      Software;
+   b. Reverse engineer, decompile, disassemble, or otherwise attempt to
+      derive the source code of the Software;
+   c. Distribute, sublicense, lease, rent, loan, or otherwise transfer
+      the Software or any rights therein to any third party;
+   d. Remove, alter, or obscure any copyright notices, trademarks, or
+      other proprietary notices contained in the Software;
+   e. Use the Software to build a competing product or service;
+   f. Use the Software in any manner that violates applicable law.
+
+4. THIRD-PARTY COMPONENTS
+
+   The Software incorporates third-party open-source components, each
+   subject to its own license terms. These components and their licenses
+   are listed in the THIRD-PARTY-LICENSES file included with this
+   distribution. Nothing in this License restricts any rights you have
+   under those third-party licenses with respect to those components
+   alone.
+
+5. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NONINFRINGEMENT. LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE
+   UNINTERRUPTED, ERROR-FREE, OR FREE OF HARMFUL COMPONENTS.
+
+6. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS,
+   DATA, OR GOODWILL, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF
+   THE SOFTWARE, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF
+   SUCH DAMAGES. LICENSOR'S TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED
+   THE AMOUNT PAID BY YOU FOR THE SOFTWARE IN THE TWELVE (12) MONTHS
+   PRECEDING THE CLAIM.
+
+7. TERMINATION
+
+   This License is effective until terminated. It will terminate
+   automatically if you fail to comply with any term herein. Upon
+   termination, you must cease all use of the Software and destroy all
+   copies in your possession.
+
+8. GOVERNING LAW
+
+   This License shall be governed by and construed in accordance with the
+   laws of the State of Texas, United States, without regard to its
+   conflict of laws provisions.
+
+9. ENTIRE AGREEMENT
+
+   This License, together with the EULA, constitutes the entire agreement
+   between you and Licensor regarding the Software and supersedes all
+   prior agreements and understandings.
+
+For licensing inquiries: legal@plextura.com

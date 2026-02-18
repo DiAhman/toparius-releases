@@ -1,525 +1,502 @@
-Third-Party Software Licenses
+THIRD-PARTY SOFTWARE LICENSES
 ==============================
 
-Toparius includes the following third-party software components.
-Each component is listed with its license type.
+Toparius incorporates third-party open-source components. This file fulfills
+the attribution and license reproduction requirements of each dependency's
+license. Each component is listed with its license type, followed by the full
+license texts organized by license type.
+
+Copyright (c) 2024-2026 DiAhman Contracting, LLC.
 
 ================================================================================
-Go Dependencies (server + agent)
+TABLE OF CONTENTS
 ================================================================================
 
-github.com/dustin/go-humanize v1.0.1
-License: MIT
-https://github.com/dustin/go-humanize
+  I.   Component Index (by license type)
+  II.  Full License Texts
+       A. MIT License
+       B. BSD-2-Clause License
+       C. BSD-3-Clause License
+       D. ISC License
+       E. Apache License 2.0
+       F. 0BSD License
+  III. Apache 2.0 NOTICE Files
 
-github.com/fsnotify/fsnotify v1.9.0
-License: BSD-3-Clause
-https://github.com/fsnotify/fsnotify
-
-github.com/go-chi/chi/v5 v5.2.5
-License: MIT
-https://github.com/go-chi/chi
-
-github.com/go-chi/cors v1.2.2
-License: MIT
-https://github.com/go-chi/cors
-
-github.com/golang-jwt/jwt/v5 v5.3.1
-License: MIT
-https://github.com/golang-jwt/jwt
-
-github.com/google/uuid v1.6.0
-License: BSD-3-Clause
-https://github.com/google/uuid
-
-github.com/gosnmp/gosnmp v1.43.2
-License: BSD-2-Clause
-https://github.com/gosnmp/gosnmp
-
-github.com/go-viper/mapstructure/v2 v2.4.0
-License: MIT
-https://github.com/go-viper/mapstructure
-
-github.com/jackc/pgpassfile v1.0.0
-License: MIT
-https://github.com/jackc/pgpassfile
-
-github.com/jackc/pgservicefile
-License: MIT
-https://github.com/jackc/pgservicefile
-
-github.com/jackc/pgx/v5 v5.8.0
-License: MIT
-https://github.com/jackc/pgx
-
-github.com/jackc/puddle/v2 v2.2.2
-License: MIT
-https://github.com/jackc/puddle
-
-github.com/jmoiron/sqlx v1.4.0
-License: MIT
-https://github.com/jmoiron/sqlx
-
-github.com/knadh/koanf/v2 v2.3.2
-License: MIT
-https://github.com/knadh/koanf
-
-github.com/knadh/koanf/maps v0.1.2
-License: MIT
-https://github.com/knadh/koanf
-
-github.com/knadh/koanf/parsers/yaml v1.1.0
-License: MIT
-https://github.com/knadh/koanf
-
-github.com/knadh/koanf/providers/env v1.1.0
-License: MIT
-https://github.com/knadh/koanf
-
-github.com/knadh/koanf/providers/file v1.2.1
-License: MIT
-https://github.com/knadh/koanf
-
-github.com/mitchellh/copystructure v1.2.0
-License: MIT
-https://github.com/mitchellh/copystructure
-
-github.com/mitchellh/reflectwalk v1.0.2
-License: MIT
-https://github.com/mitchellh/reflectwalk
-
-github.com/remyoudompheng/bigfft
-License: BSD-3-Clause
-https://github.com/remyoudompheng/bigfft
-
-golang.org/x/crypto v0.48.0
-License: BSD-3-Clause
-https://cs.opensource.google/go/x/crypto
-
-golang.org/x/exp
-License: BSD-3-Clause
-https://cs.opensource.google/go/x/exp
-
-golang.org/x/sync v0.19.0
-License: BSD-3-Clause
-https://cs.opensource.google/go/x/sync
-
-golang.org/x/sys v0.41.0
-License: BSD-3-Clause
-https://cs.opensource.google/go/x/sys
-
-golang.org/x/text v0.34.0
-License: BSD-3-Clause
-https://cs.opensource.google/go/x/text
-
-go.yaml.in/yaml/v3 v3.0.3
-License: MIT
-https://github.com/yaml/go-yaml
-
-modernc.org/libc v1.67.6
-License: MIT
-https://gitlab.com/cznic/libc
-
-modernc.org/memory v1.11.0
-License: BSD-3-Clause
-https://gitlab.com/cznic/memory
-
-modernc.org/sqlite v1.45.0
-License: BSD-3-Clause
-https://gitlab.com/cznic/sqlite
-
-nhooyr.io/websocket v1.8.17
-License: ISC
-https://github.com/nhooyr/websocket
 
 ================================================================================
-npm Dependencies (web frontend)
+I. COMPONENT INDEX
 ================================================================================
 
-@babel/runtime 7.28.6
-License: MIT
-https://github.com/babel/babel
-
-@floating-ui/core 1.7.4
-License: MIT
-https://github.com/floating-ui/floating-ui
-
-@floating-ui/dom 1.7.5
-License: MIT
-https://github.com/floating-ui/floating-ui
-
-@floating-ui/react-dom 2.1.7
-License: MIT
-https://github.com/floating-ui/floating-ui
-
-@floating-ui/react 0.27.17
-License: MIT
-https://github.com/floating-ui/floating-ui
-
-@floating-ui/utils 0.2.10
-License: MIT
-https://github.com/floating-ui/floating-ui
-
-@hookform/resolvers 5.2.2
-License: MIT
-https://github.com/react-hook-form/resolvers
-
-@mantine/core 8.3.14
-License: MIT
-https://github.com/mantinedev/mantine
-
-@mantine/form 8.3.14
-License: MIT
-https://github.com/mantinedev/mantine
-
-@mantine/hooks 8.3.14
-License: MIT
-https://github.com/mantinedev/mantine
-
-@mantine/modals 8.3.14
-License: MIT
-https://github.com/mantinedev/mantine
-
-@mantine/notifications 8.3.14
-License: MIT
-https://github.com/mantinedev/mantine
-
-@mantine/spotlight 8.3.15
-License: MIT
-https://github.com/mantinedev/mantine
-
-@mantine/store 8.3.14
-License: MIT
-https://github.com/mantinedev/mantine
-
-@standard-schema/utils 0.3.0
-License: MIT
-https://github.com/standard-schema/standard-schema
-
-@tanstack/query-core 5.90.20
-License: MIT
-https://github.com/TanStack/query
-
-@tanstack/react-query 5.90.21
-License: MIT
-https://github.com/TanStack/query
-
-@tanstack/react-table 8.21.3
-License: MIT
-https://github.com/TanStack/table
-
-@tanstack/table-core 8.21.3
-License: MIT
-https://github.com/TanStack/table
-
-@types/d3-color 3.1.3
-License: MIT
-https://github.com/DefinitelyTyped/DefinitelyTyped
-
-@types/d3-drag 3.0.7
-License: MIT
-https://github.com/DefinitelyTyped/DefinitelyTyped
-
-@types/d3-interpolate 3.0.4
-License: MIT
-https://github.com/DefinitelyTyped/DefinitelyTyped
-
-@types/d3-selection 3.0.11
-License: MIT
-https://github.com/DefinitelyTyped/DefinitelyTyped
-
-@types/d3-transition 3.0.9
-License: MIT
-https://github.com/DefinitelyTyped/DefinitelyTyped
-
-@types/d3-zoom 3.0.8
-License: MIT
-https://github.com/DefinitelyTyped/DefinitelyTyped
-
-@types/react 19.2.14
-License: MIT
-https://github.com/DefinitelyTyped/DefinitelyTyped
-
-@xyflow/react 12.10.0
-License: MIT
-https://github.com/xyflow/xyflow
-
-@xyflow/system 0.0.74
-License: MIT
-https://github.com/xyflow/xyflow
-
-camelcase-css 2.0.1
-License: MIT
-https://github.com/stevenvachon/camelcase-css
-
-classcat 5.0.5
-License: MIT
-https://github.com/jorgebucaran/classcat
-
-clsx 2.1.1
-License: MIT
-https://github.com/lukeed/clsx
-
-cookie 1.1.1
-License: MIT
-https://github.com/jshttp/cookie
-
-cssesc 3.0.0
-License: MIT
-https://github.com/mathiasbynens/cssesc
-
-csstype 3.2.3
-License: MIT
-https://github.com/frenic/csstype
-
-d3-color 3.1.0
-License: ISC
-https://github.com/d3/d3-color
-
-d3-dispatch 3.0.1
-License: ISC
-https://github.com/d3/d3-dispatch
-
-d3-drag 3.0.0
-License: ISC
-https://github.com/d3/d3-drag
-
-d3-ease 3.0.1
-License: BSD-3-Clause
-https://github.com/d3/d3-ease
-
-d3-interpolate 3.0.1
-License: ISC
-https://github.com/d3/d3-interpolate
-
-d3-selection 3.0.0
-License: ISC
-https://github.com/d3/d3-selection
-
-d3-timer 3.0.1
-License: ISC
-https://github.com/d3/d3-timer
-
-d3-transition 3.0.1
-License: ISC
-https://github.com/d3/d3-transition
-
-d3-zoom 3.0.0
-License: ISC
-https://github.com/d3/d3-zoom
-
-detect-node-es 1.1.0
-License: MIT
-https://github.com/thekashey/detect-node
-
-dom-helpers 5.2.1
-License: MIT
-https://github.com/react-bootstrap/dom-helpers
-
-echarts 6.0.0
-License: Apache-2.0
-https://github.com/apache/echarts
-
-echarts-for-react 3.0.6
-License: MIT
-https://github.com/hustcc/echarts-for-react
-
-fast-deep-equal 3.1.3
-License: MIT
-https://github.com/epoberezkin/fast-deep-equal
-
-fdir 6.5.0
-License: MIT
-https://github.com/thecodrr/fdir
-
-get-nonce 1.0.1
-License: MIT
-https://github.com/theKashey/get-nonce
-
-html-to-image 1.11.13
-License: MIT
-https://github.com/bubkoo/html-to-image
-
-js-tokens 4.0.0
-License: MIT
-https://github.com/lydell/js-tokens
-
-klona 2.0.6
-License: MIT
-https://github.com/lukeed/klona
-
-loose-envify 1.4.0
-License: MIT
-https://github.com/zertosh/loose-envify
-
-lucide-react 0.564.0
-License: ISC
-https://github.com/lucide-icons/lucide
-
-nanoid 3.3.11
-License: MIT
-https://github.com/ai/nanoid
-
-object-assign 4.1.1
-License: MIT
-https://github.com/sindresorhus/object-assign
-
-picocolors 1.1.1
-License: ISC
-https://github.com/alexeyraspopov/picocolors
-
-picomatch 4.0.3
-License: MIT
-https://github.com/micromatch/picomatch
-
-postcss 8.5.6
-License: MIT
-https://github.com/postcss/postcss
-
-postcss-js 4.1.0
-License: MIT
-https://github.com/postcss/postcss-js
-
-postcss-mixins 12.1.2
-License: MIT
-https://github.com/postcss/postcss-mixins
-
-postcss-nested 7.0.2
-License: MIT
-https://github.com/postcss/postcss-nested
-
-postcss-preset-mantine 1.18.0
-License: MIT
-https://github.com/mantinedev/postcss-preset-mantine
-
-postcss-selector-parser 7.1.1
-License: MIT
-https://github.com/postcss/postcss-selector-parser
-
-postcss-simple-vars 7.0.1
-License: MIT
-https://github.com/postcss/postcss-simple-vars
-
-prop-types 15.8.1
-License: MIT
-https://github.com/facebook/prop-types
-
-react 19.2.4
-License: MIT
-https://github.com/facebook/react
-
-react-dom 19.2.4
-License: MIT
-https://github.com/facebook/react
-
-react-hook-form 7.71.1
-License: MIT
-https://github.com/react-hook-form/react-hook-form
-
-react-is 16.13.1
-License: MIT
-https://github.com/facebook/react
-
-react-number-format 5.4.4
-License: MIT
-https://github.com/s-yadav/react-number-format
-
-react-remove-scroll 2.7.2
-License: MIT
-https://github.com/theKashey/react-remove-scroll
-
-react-remove-scroll-bar 2.3.8
-License: MIT
-https://github.com/theKashey/react-remove-scroll-bar
-
-react-router 7.13.0
-License: MIT
-https://github.com/remix-run/react-router
-
-react-router-dom 7.13.0
-License: MIT
-https://github.com/remix-run/react-router
-
-react-style-singleton 2.2.3
-License: MIT
-https://github.com/theKashey/react-style-singleton
-
-react-textarea-autosize 8.5.9
-License: MIT
-https://github.com/Andarist/react-textarea-autosize
-
-react-transition-group 4.4.5
-License: BSD-3-Clause
-https://github.com/reactjs/react-transition-group
-
-scheduler 0.27.0
-License: MIT
-https://github.com/facebook/react
-
-set-cookie-parser 2.7.2
-License: MIT
-https://github.com/nfriedly/set-cookie-parser
-
-size-sensor 1.0.3
-License: ISC
-https://github.com/hustcc/size-sensor
-
-source-map-js 1.2.1
-License: BSD-3-Clause
-https://github.com/7rulnik/source-map-js
-
-sugarss 5.0.1
-License: MIT
-https://github.com/postcss/sugarss
-
-tabbable 6.4.0
-License: MIT
-https://github.com/focus-trap/tabbable
-
-tinyglobby 0.2.15
-License: MIT
-https://github.com/SuperchupuDev/tinyglobby
-
-tslib 2.8.1
-License: 0BSD
-https://github.com/Microsoft/tslib
-
-type-fest 4.41.0
-License: MIT OR CC0-1.0
-https://github.com/sindresorhus/type-fest
-
-use-callback-ref 1.3.3
-License: MIT
-https://github.com/theKashey/use-callback-ref
-
-use-composed-ref 1.4.0
-License: MIT
-https://github.com/Andarist/use-composed-ref
-
-use-isomorphic-layout-effect 1.2.1
-License: MIT
-https://github.com/Andarist/use-isomorphic-layout-effect
-
-use-latest 1.3.0
-License: MIT
-https://github.com/Andarist/use-latest
-
-use-sidecar 1.1.3
-License: MIT
-https://github.com/theKashey/use-sidecar
-
-use-sync-external-store 1.6.0
-License: MIT
-https://github.com/facebook/react
-
-util-deprecate 1.0.2
-License: MIT
-https://github.com/TooTallNate/util-deprecate
-
-zod 4.3.6
-License: MIT
-https://github.com/colinhacks/zod
-
-zustand 5.0.11
-License: MIT
-https://github.com/pmndrs/zustand
+--- MIT Licensed Components ---
+
+Go Dependencies:
+  github.com/dustin/go-humanize v1.0.1
+  github.com/go-chi/chi/v5 v5.2.5
+  github.com/go-chi/cors v1.2.2
+  github.com/golang-jwt/jwt/v5 v5.3.1
+  github.com/go-viper/mapstructure/v2 v2.4.0
+  github.com/jackc/pgpassfile v1.0.0
+  github.com/jackc/pgservicefile
+  github.com/jackc/pgx/v5 v5.8.0
+  github.com/jackc/puddle/v2 v2.2.2
+  github.com/jmoiron/sqlx v1.4.0
+  github.com/knadh/koanf/v2 v2.3.2
+  github.com/knadh/koanf/maps v0.1.2
+  github.com/knadh/koanf/parsers/yaml v1.1.0
+  github.com/knadh/koanf/providers/env v1.1.0
+  github.com/knadh/koanf/providers/file v1.2.1
+  github.com/mitchellh/copystructure v1.2.0
+  github.com/mitchellh/reflectwalk v1.0.2
+  go.yaml.in/yaml/v3 v3.0.3
+  modernc.org/libc v1.67.6
+
+npm Dependencies:
+  @babel/runtime 7.28.6
+  @floating-ui/core 1.7.4
+  @floating-ui/dom 1.7.5
+  @floating-ui/react 0.27.17
+  @floating-ui/react-dom 2.1.7
+  @floating-ui/utils 0.2.10
+  @hookform/resolvers 5.2.2
+  @mantine/core 8.3.14
+  @mantine/form 8.3.14
+  @mantine/hooks 8.3.14
+  @mantine/modals 8.3.14
+  @mantine/notifications 8.3.14
+  @mantine/spotlight 8.3.15
+  @mantine/store 8.3.14
+  @standard-schema/utils 0.3.0
+  @tanstack/query-core 5.90.20
+  @tanstack/react-query 5.90.21
+  @tanstack/react-table 8.21.3
+  @tanstack/table-core 8.21.3
+  @types/d3-color 3.1.3
+  @types/d3-drag 3.0.7
+  @types/d3-interpolate 3.0.4
+  @types/d3-selection 3.0.11
+  @types/d3-transition 3.0.9
+  @types/d3-zoom 3.0.8
+  @types/react 19.2.14
+  @xyflow/react 12.10.0
+  @xyflow/system 0.0.74
+  camelcase-css 2.0.1
+  classcat 5.0.5
+  clsx 2.1.1
+  cookie 1.1.1
+  cssesc 3.0.0
+  csstype 3.2.3
+  detect-node-es 1.1.0
+  dom-helpers 5.2.1
+  echarts-for-react 3.0.6
+  fast-deep-equal 3.1.3
+  fdir 6.5.0
+  get-nonce 1.0.1
+  html-to-image 1.11.13
+  js-tokens 4.0.0
+  klona 2.0.6
+  loose-envify 1.4.0
+  nanoid 3.3.11
+  object-assign 4.1.1
+  picomatch 4.0.3
+  postcss 8.5.6
+  postcss-js 4.1.0
+  postcss-mixins 12.1.2
+  postcss-nested 7.0.2
+  postcss-preset-mantine 1.18.0
+  postcss-selector-parser 7.1.1
+  postcss-simple-vars 7.0.1
+  prop-types 15.8.1
+  react 19.2.4
+  react-dom 19.2.4
+  react-hook-form 7.71.1
+  react-is 16.13.1
+  react-number-format 5.4.4
+  react-remove-scroll 2.7.2
+  react-remove-scroll-bar 2.3.8
+  react-router 7.13.0
+  react-router-dom 7.13.0
+  react-style-singleton 2.2.3
+  react-textarea-autosize 8.5.9
+  react-transition-group 4.4.5
+  scheduler 0.27.0
+  set-cookie-parser 2.7.2
+  sugarss 5.0.1
+  tabbable 6.4.0
+  tinyglobby 0.2.15
+  use-callback-ref 1.3.3
+  use-composed-ref 1.4.0
+  use-isomorphic-layout-effect 1.2.1
+  use-latest 1.3.0
+  use-sidecar 1.1.3
+  use-sync-external-store 1.6.0
+  util-deprecate 1.0.2
+  zod 4.3.6
+  zustand 5.0.11
+
+--- BSD-2-Clause Licensed Components ---
+
+Go Dependencies:
+  github.com/gosnmp/gosnmp v1.43.2
+
+--- BSD-3-Clause Licensed Components ---
+
+Go Dependencies:
+  github.com/fsnotify/fsnotify v1.9.0
+  github.com/google/uuid v1.6.0
+  github.com/remyoudompheng/bigfft
+  golang.org/x/crypto v0.48.0
+  golang.org/x/exp
+  golang.org/x/sync v0.19.0
+  golang.org/x/sys v0.41.0
+  golang.org/x/text v0.34.0
+  modernc.org/memory v1.11.0
+  modernc.org/sqlite v1.45.0
+
+npm Dependencies:
+  d3-ease 3.0.1
+  react-transition-group 4.4.5
+  source-map-js 1.2.1
+
+--- ISC Licensed Components ---
+
+Go Dependencies:
+  nhooyr.io/websocket v1.8.17
+
+npm Dependencies:
+  d3-color 3.1.0
+  d3-dispatch 3.0.1
+  d3-drag 3.0.0
+  d3-interpolate 3.0.1
+  d3-selection 3.0.0
+  d3-timer 3.0.1
+  d3-transition 3.0.1
+  d3-zoom 3.0.0
+  lucide-react 0.564.0
+  picocolors 1.1.1
+  size-sensor 1.0.3
+
+--- Apache-2.0 Licensed Components ---
+
+npm Dependencies:
+  echarts 6.0.0 — Copyright 2017-2025 The Apache Software Foundation
+
+--- 0BSD Licensed Components ---
+
+npm Dependencies:
+  tslib 2.8.1
+
+--- MIT OR CC0-1.0 Licensed Components ---
+
+npm Dependencies:
+  type-fest 4.41.0
+
+
+================================================================================
+II. FULL LICENSE TEXTS
+================================================================================
+
+--------------------------------------------------------------------------------
+A. MIT License
+--------------------------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+B. BSD-2-Clause License
+--------------------------------------------------------------------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+C. BSD-3-Clause License
+--------------------------------------------------------------------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+D. ISC License
+--------------------------------------------------------------------------------
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+--------------------------------------------------------------------------------
+E. Apache License, Version 2.0
+--------------------------------------------------------------------------------
+
+                              Apache License
+                        Version 2.0, January 2004
+                     http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions.
+
+   "License" shall mean the terms and conditions for use, reproduction,
+   and distribution as defined by Sections 1 through 9 of this document.
+
+   "Licensor" shall mean the copyright owner or entity authorized by
+   the copyright owner that is granting the License.
+
+   "Legal Entity" shall mean the union of the acting entity and all
+   other entities that control, are controlled by, or are under common
+   control with that entity. For the purposes of this definition,
+   "control" means (i) the power, direct or indirect, to cause the
+   direction or management of such entity, whether by contract or
+   otherwise, or (ii) ownership of fifty percent (50%) or more of the
+   outstanding shares, or (iii) beneficial ownership of such entity.
+
+   "You" (or "Your") shall mean an individual or Legal Entity
+   exercising permissions granted by this License.
+
+   "Source" form shall mean the preferred form for making modifications,
+   including but not limited to software source code, documentation
+   source, and configuration files.
+
+   "Object" form shall mean any form resulting from mechanical
+   transformation or translation of a Source form, including but not
+   limited to compiled object code, generated documentation, and
+   conversions to other media types.
+
+   "Work" shall mean the work of authorship, whether in Source or
+   Object form, made available under the License, as indicated by a
+   copyright notice that is included in or attached to the work
+   (an example is provided in the Appendix below).
+
+   "Derivative Works" shall mean any work, whether in Source or Object
+   form, that is based on (or derived from) the Work and for which the
+   editorial revisions, annotations, elaborations, or other modifications
+   represent, as a whole, an original work of authorship. For the purposes
+   of this License, Derivative Works shall not include works that remain
+   separable from, or merely link (or bind by name) to the interfaces of,
+   the Work and Derivative Works thereof.
+
+   "Contribution" shall mean any work of authorship, including
+   the original version of the Work and any modifications or additions
+   to that Work or Derivative Works thereof, that is intentionally
+   submitted to the Licensor for inclusion in the Work by the copyright owner
+   or by an individual or Legal Entity authorized to submit on behalf of
+   the copyright owner. For the purposes of this definition, "submitted"
+   means any form of electronic, verbal, or written communication sent
+   to the Licensor or its representatives, including but not limited to
+   communication on electronic mailing lists, source code control systems,
+   and issue tracking systems that are managed by, or on behalf of, the
+   Licensor for the purpose of discussing and improving the Work, but
+   excluding communication that is conspicuously marked or otherwise
+   designated in writing by the copyright owner as "Not a Contribution."
+
+   "Contributor" shall mean Licensor and any individual or Legal Entity
+   on behalf of whom a Contribution has been received by the Licensor and
+   subsequently incorporated within the Work.
+
+2. Grant of Copyright License. Subject to the terms and conditions of
+   this License, each Contributor hereby grants to You a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   copyright license to reproduce, prepare Derivative Works of,
+   publicly display, publicly perform, sublicense, and distribute the
+   Work and such Derivative Works in Source or Object form.
+
+3. Grant of Patent License. Subject to the terms and conditions of
+   this License, each Contributor hereby grants to You a perpetual,
+   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+   (except as stated in this section) patent license to make, have made,
+   use, offer to sell, sell, import, and otherwise transfer the Work,
+   where such license applies only to those patent claims licensable
+   by such Contributor that are necessarily infringed by their
+   Contribution(s) alone or by combination of their Contribution(s)
+   with the Work to which such Contribution(s) was submitted. If You
+   institute patent litigation against any entity (including a
+   cross-claim or counterclaim in a lawsuit) alleging that the Work
+   or a Contribution incorporated within the Work constitutes direct
+   or contributory patent infringement, then any patent licenses
+   granted to You under this License for that Work shall terminate
+   as of the date such litigation is filed.
+
+4. Redistribution. You may reproduce and distribute copies of the
+   Work or Derivative Works thereof in any medium, with or without
+   modifications, and in Source or Object form, provided that You
+   meet the following conditions:
+
+   (a) You must give any other recipients of the Work or
+       Derivative Works a copy of this License; and
+
+   (b) You must cause any modified files to carry prominent notices
+       stating that You changed the files; and
+
+   (c) You must retain, in the Source form of any Derivative Works
+       that You distribute, all copyright, patent, trademark, and
+       attribution notices from the Source form of the Work,
+       excluding those notices that do not pertain to any part of
+       the Derivative Works; and
+
+   (d) If the Work includes a "NOTICE" text file as part of its
+       distribution, then any Derivative Works that You distribute must
+       include a readable copy of the attribution notices contained
+       within such NOTICE file, excluding any notices that do not
+       pertain to any part of the Derivative Works, in at least one
+       of the following places: within a NOTICE text file distributed
+       as part of the Derivative Works; within the Source form or
+       documentation, if provided along with the Derivative Works; or,
+       within a display generated by the Derivative Works, if and
+       wherever such third-party notices normally appear. The contents
+       of the NOTICE file are for informational purposes only and
+       do not modify the License. You may add Your own attribution
+       notices within Derivative Works that You distribute, alongside
+       or as an addendum to the NOTICE text from the Work, provided
+       that such additional attribution notices cannot be construed
+       as modifying the License.
+
+   You may add Your own copyright statement to Your modifications and
+   may provide additional or different license terms and conditions
+   for use, reproduction, or distribution of Your modifications, or
+   for any such Derivative Works as a whole, provided Your use,
+   reproduction, and distribution of the Work otherwise complies with
+   the conditions stated in this License.
+
+5. Submission of Contributions. Unless You explicitly state otherwise,
+   any Contribution intentionally submitted for inclusion in the Work
+   by You to the Licensor shall be under the terms and conditions of
+   this License, without any additional terms or conditions.
+   Notwithstanding the above, nothing herein shall supersede or modify
+   the terms of any separate license agreement you may have executed
+   with Licensor regarding such Contributions.
+
+6. Trademarks. This License does not grant permission to use the trade
+   names, trademarks, service marks, or product names of the Licensor,
+   except as required for reasonable and customary use in describing the
+   origin of the Work and reproducing the content of the NOTICE file.
+
+7. Disclaimer of Warranty. Unless required by applicable law or
+   agreed to in writing, Licensor provides the Work (and each
+   Contributor provides its Contributions) on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+   implied, including, without limitation, any warranties or conditions
+   of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+   PARTICULAR PURPOSE. You are solely responsible for determining the
+   appropriateness of using or redistributing the Work and assume any
+   risks associated with Your exercise of permissions under this License.
+
+8. Limitation of Liability. In no event and under no legal theory,
+   whether in tort (including negligence), contract, or otherwise,
+   unless required by applicable law (such as deliberate and grossly
+   negligent acts) or agreed to in writing, shall any Contributor be
+   liable to You for damages, including any direct, indirect, special,
+   incidental, or consequential damages of any character arising as a
+   result of this License or out of the use or inability to use the
+   Work (including but not limited to damages for loss of goodwill,
+   work stoppage, computer failure or malfunction, or any and all
+   other commercial damages or losses), even if such Contributor
+   has been advised of the possibility of such damages.
+
+9. Accepting Warranty or Additional Liability. While redistributing
+   the Work or Derivative Works thereof, You may choose to offer,
+   and charge a fee for, acceptance of support, warranty, indemnity,
+   or other liability obligations and/or rights consistent with this
+   License. However, in accepting such obligations, You may act only
+   on Your own behalf and on Your sole responsibility, not on behalf
+   of any other Contributor, and only if You agree to indemnify,
+   defend, and hold each Contributor harmless for any liability
+   incurred by, or claims asserted against, such Contributor by reason
+   of your accepting any such warranty or additional liability.
+
+END OF APACHE LICENSE 2.0 TERMS AND CONDITIONS
+
+--------------------------------------------------------------------------------
+F. 0BSD License (Zero-Clause BSD)
+--------------------------------------------------------------------------------
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+
+================================================================================
+III. APACHE 2.0 NOTICE FILES
+================================================================================
+
+The following NOTICE files are reproduced as required by Section 4(d) of the
+Apache License 2.0.
+
+--------------------------------------------------------------------------------
+Apache ECharts
+--------------------------------------------------------------------------------
+
+Apache ECharts
+Copyright 2017-2025 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
