@@ -325,7 +325,7 @@ acceptance of the modified terms.
 All notices under this Agreement shall be in writing and sent to:
 
 **DiAhman Contracting, LLC**
-Email: legal@plextura.com
+Email: contact@di-ahman.com
 
 ---
 

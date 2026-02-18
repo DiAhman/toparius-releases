@@ -254,7 +254,7 @@ constitutes acceptance.
 For questions about these Terms:
 
 **DiAhman Contracting, LLC**
-Email: legal@plextura.com
+Email: contact@di-ahman.com
 
 ---
 
