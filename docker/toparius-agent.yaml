@@ -1,12 +1,15 @@
 # Toparius Agent Configuration
 # Environment variables override with TOPARIUS_AGENT_ prefix:
-#   TOPARIUS_AGENT_SERVER_URL=http://10.0.0.1:8080
+#   TOPARIUS_AGENT_SERVER_URL=https://10.0.0.1:8080
 
 server:
-  # URL of the Toparius server
-  url: "http://toparius-server:8080"
+  # URL of the Toparius server (HTTPS by default since v0.21.0)
+  url: "https://toparius-server:8080"
   # Agent API key (generated in Toparius server UI)
   api_key: ""
+
+# Skip TLS certificate verification (required when server uses self-signed cert)
+tls_skip_verify: true
 
 agent:
   # Site ID this agent is assigned to
