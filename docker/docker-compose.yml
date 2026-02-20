@@ -1,6 +1,6 @@
 services:
   toparius-server:
-    image: ghcr.io/diahman/toparius-server:latest
+    image: ghcr.io/diahman-contracting/toparius-server:latest
     container_name: toparius-server
     restart: unless-stopped
     ports:
@@ -13,14 +13,14 @@ services:
     environment:
       - TOPARIUS_DATABASE_DSN=/var/lib/toparius/toparius.db
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/api/v1/health"]
+      test: ["CMD", "curl", "-fk", "https://localhost:8080/api/v1/health"]
       interval: 30s
       timeout: 5s
       retries: 3
       start_period: 10s
 
   toparius-agent:
-    image: ghcr.io/diahman/toparius-agent:latest
+    image: ghcr.io/diahman-contracting/toparius-agent:latest
     container_name: toparius-agent
     restart: unless-stopped
     network_mode: host  # needed for SNMP/ping discovery on local network

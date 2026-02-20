@@ -63,7 +63,7 @@ sudo nano /etc/toparius/toparius-server.yaml
 # Start
 sudo systemctl enable --now toparius-server
 
-# Open http://your-server:8080 and complete the setup wizard
+# Open https://your-server:8080 and complete the setup wizard
 ```
 
 **Agent:**
@@ -86,8 +86,8 @@ Or use the **one-line deploy** from the Toparius server UI — go to Agents, cre
 
 ```bash
 # Pull images
-docker pull ghcr.io/diahman/toparius-server:latest
-docker pull ghcr.io/diahman/toparius-agent:latest
+docker pull ghcr.io/diahman-contracting/toparius-server:latest
+docker pull ghcr.io/diahman-contracting/toparius-agent:latest
 
 # Or use docker-compose (download from this repo)
 wget https://raw.githubusercontent.com/DiAhman/toparius-releases/main/docker/docker-compose.yml
@@ -124,11 +124,12 @@ security:
   rate_limit_rps: 20
   rate_limit_burst: 40
 
-# Optional: TLS
-# tls:
-#   enabled: true
-#   cert_file: "/etc/toparius/tls/cert.pem"
-#   key_file: "/etc/toparius/tls/key.pem"
+# TLS mode: "auto" (self-signed cert, default), "manual" (your own cert), "off" (HTTP only)
+tls:
+  mode: "auto"
+  # For manual mode, uncomment and set paths:
+  # cert_file: "/etc/toparius/tls/cert.pem"
+  # key_file: "/etc/toparius/tls/key.pem"
 
 log:
   level: "info"
@@ -141,8 +142,11 @@ Environment variables override config with the `TOPARIUS_` prefix (e.g., `TOPARI
 
 ```yaml
 server:
-  url: "http://your-server:8080"
+  url: "https://your-server:8080"
   api_key: ""  # from Toparius server UI
+
+# Skip TLS verification (required when server uses self-signed cert)
+tls_skip_verify: true
 
 agent:
   site_id: ""  # assigned during registration
@@ -181,7 +185,7 @@ docker compose up -d
 
 ## Getting Started
 
-1. Install the server and open `http://your-server:8080`
+1. Install the server and open `https://your-server:8080`
 2. Complete the setup wizard (creates admin account)
 3. Create a Client > Site > Network in the hierarchy
 4. Create an agent and deploy it to the site using the one-line installer

@@ -23,6 +23,13 @@ security:
   rate_limit_rps: 20
   rate_limit_burst: 40
 
+# TLS mode: "auto" (self-signed cert, default), "manual" (your own cert), "off" (HTTP only)
+tls:
+  mode: "auto"
+  # For manual mode, uncomment and set paths:
+  # cert_file: "/etc/toparius/tls/cert.pem"
+  # key_file: "/etc/toparius/tls/key.pem"
+
 updates:
   agent_binary_dir: "/var/lib/toparius/updates"
 
