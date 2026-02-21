@@ -1,0 +1,3 @@
+# Binary packages are distributed as GitHub Release assets, not committed to the repo
+*.deb
+*.rpm
